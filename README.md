@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a **UART (Universal Asynchronous Receiver Transmitter) controller implemented entirely in Verilog-2001** and simulated using **Xilinx Vivado**. The design is in **parameterized baud communication with 16× oversampling**, making the receiver more robust against timing mismatches and asynchronous input sampling issues.
+This project is a **UART (Universal Asynchronous Receiver Transmitter) controller implemented entirely in Verilog** and simulated using **Xilinx Vivado**. The design is in **parameterized baud communication with 16× oversampling**, making the receiver more robust against timing mismatches and asynchronous input sampling issues.
 
 The project was developed as a **frontend VLSI / RTL design exercise**, focusing not only on writing synthesizable RTL but also on **systematic debugging, timing verification, and waveform-based validation**.
 
@@ -10,7 +10,7 @@ The project was developed as a **frontend VLSI / RTL design exercise**, focusing
 
 ## Features
 
-* **Verilog-2001 implementation** (no SystemVerilog dependencies)
+* **Verilog implementation** (no SystemVerilog dependencies)
 * **1,00,000Hz system clock**
 * **100 baud rate**
 * **8N1 UART format**
